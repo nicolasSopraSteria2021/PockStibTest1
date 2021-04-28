@@ -8,7 +8,7 @@ namespace PockStibTest1
         public static SqlConnection GetDBConnection()
         {
             //nom de la base de donnée
-            string datasource = @"fake_Db_STIB";
+            string datasource = @"DbStib";
 
             //appel de la methode GetDBConnection de la classe DBSQLServerUtils
             return DBSQLServerUtils.GetDBConnection(datasource);
